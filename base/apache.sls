@@ -1,6 +1,4 @@
-install_network_packages:
+install_apache:
   pkg.installed:
     - pkgs:
-      - rsync
-      - lftp
-      - curl
+      - apache
